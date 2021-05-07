@@ -198,7 +198,7 @@ img {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #333f48;
 }
 a:active, a:visited {
@@ -834,7 +834,7 @@ a:active, a:visited {
 }
 .fashion-product__show__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -1704,6 +1704,9 @@ a:active, a:visited {
 }
 .header__logo {
   width: 33.33%;
+  h1 {
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 768px) {
   .header__logo {
@@ -1718,9 +1721,7 @@ a:active, a:visited {
 .header__logo h1 a {
   display: block;
   text-align: center;
-}
-.header__logo h1 a img {
-  max-width: 200px;
+  text-transform: uppercase;
 }
 @media only screen and (max-width: 500px) {
   .header__logo h1 a img {

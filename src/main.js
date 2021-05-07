@@ -10,14 +10,14 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faUserSecret, faSpinner, faSearch, faUser, faShoppingCart, faAngleDown } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret, faSpinner, faSearch, faUser, faShoppingCart, faAngleDown, faCartArrowDown, faShoppingBag } from '@fortawesome/free-solid-svg-icons'
 
 // Make BootstrapVue available throughout your project
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
 
-library.add(faUserSecret, faSpinner, faSearch, faUser, faShoppingCart, faAngleDown)
+library.add(faUserSecret, faSpinner, faSearch, faUser, faShoppingCart, faAngleDown, faCartArrowDown, faShoppingBag)
 Vue.component('fa-icon', FontAwesomeIcon)
 
 new Vue({
